@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Glee</title>
+</head>
+
+<body>
+  <div id="slideout-menu">
+      <ul>
+          <li>
+              <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="esports.html">Esports in India</a>
+          </li>
+          <li>
+              <a href="about.html">About</a>
+          </li>
+          <li>
+            <input type="text" id="myInput2" onkeyup="myFunc()" placeholder="Search an esports">
+            <ul id="myUL">
+                <li><a href="pvm.html">PVM</a></li>
+                    <li><a href="rts.html">RTS</a></li>
+                    <li><a href="fps.html">FPS</a></li>
+                    <li><a href="moba.html">MOBA</a></li>
+            </ul>
+        </li>
+      </ul>
+  </div>
+
+  <nav>
+    <div id="logo-img">
+        <a href="index.html">
+            <img src="img/logo.png" width="140" height="" alt="esports logo">
+        </a>
+    </div>
+    <div id="menu-icon">
+        <i class="fas fa-bars"></i>
+    </div>
+    <ul>
+        <li>
+            <a class="active" href="index.html">Home</a>
+        </li>
+        <li>
+            <a href="esports.html">Esports in India</a>
+        </li>
+        <li>
+            <a href="about.html">About</a>
+        </li>
+        <li>
+            <div id="search-icon" class="dropdown">
+                <i class="fas fa-search" onclick="myFunction()"></i>
+                <div id="myDropdown" class="dropdown-content">
+                  <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                    <a href="pvm.html">PUBG Mobile</a>
+                    <a href="rts.html">Clash of Clans</a>
+                    <a href="fps.html">COD Mobile</a>
+                    <a href="moba.html">Free Fire</a>
+                </div>
+              </div>
+        </li>
+    </ul>
+</nav>
+
+  <div id="searchbox">
+      <input type="text" placeholder="Search Here">
+  </div>
+
+  <main>
+
+    <h2 class="page-heading">Dancing</h2>
+    <div id="post-container">
+      <section id="hobby">
+        <div class="card">
+          <div class="card-image">
+            <img src="img/1.jpg" alt="Card Image">
+          </div>
+          <div class="card-description">
+            <h3>About</h3>
+            <p>PvP or player versus player is precisely as the name suggests.
+              This means that one or more humans will play versus one or more opponents, humans as well .
+              This type of esports has been very popular and it still is. However, in the recent period of time, it became less common among players. 
+              They moved to other types that will be discussed below. Most games used in this type are sports or combat games.</p>
+          </div>
+        </div>
+
+      </section>
+
+      <aside id="sidebar">
+        <h3>Resources</h3>
+        <p>Videos</p>
+        <p><iframe width="460" height="258.15" src="https://youtu.be/KnpljMWwy3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+        <p></p><iframe width="460" height="258.15" src="https://youtu.be/QOkBRJEcOEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+        <p>Links</p>
+        <p><a href="http://www.learntodance.com/" style="color: #f2687f;">How to learn to dance</a></p>
+      </aside>
+    </div>
+
+    <footer>
+        <div id="left-footer">
+            <h3>Quick Links</h3>
+            <p>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="hobbies.html">Hobbies</a>
+                    </li>
+                    <li>
+                        <a href = "mailto: rajput.1@iitj.ac.in">Contact Us</a>
+                    </li>
+                </ul>
+            </p>
+        </div>
+
+        <div id="right-footer">
+            <h3>Follow us on</h3>
+            <div id="social-media-footer">
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/mynk-rjpt/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p>Developed by Mayank and Ekta</p>
+        </div>
+    </footer>
+
+  </main>
+
+  <script src="main.js"></script>
+</body>
+
+</html>

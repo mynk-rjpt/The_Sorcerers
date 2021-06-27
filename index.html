@@ -9,13 +9,30 @@
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
     <title>eSports</title>
+    
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+      integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
+      integrity="sha512-0xrMWUXzEAc+VY7k48pWd5YT6ig03p4KARKxs4Bqxb9atrcn2fV41fWs+YXTKb8lD2sbPAmZMjKENiyzM/Gagw=="
+      crossorigin="anonymous"
+    ></script>
 </head>
 
 <body>
+    <script src="js/three.js"></script>
+    <script src="js/three.min.js"></script>
+    <script src="js/three.module.js"></script>
+    
+
     <div id="slideout-menu">
         
-        <script src="script.js"></script>
+        <section>
         <ul>
             <li>
                 <a href="index.html">Home</a>
@@ -29,13 +46,16 @@
             <li>
                 <input type="text" id="myInput2" onkeyup="myFunc()" placeholder="Search an esports">
                 <ul id="myUL">
-                    <li><a href="pubgm.html">Coding</a></li>
-                    <li><a href="clashofclans.html">Guitar</a></li>
-                    <li><a href="codm.html">Cooking</a></li>
-                    <li><a href="freefire.html">Dancing</a></li>
+                    <li><a href="pvm.html">PVM</a></li>
+                    <li><a href="rts.html">RTS</a></li>
+                    <li><a href="fps.html">FPS</a></li>
+                    <li><a href="moba.html">MOBA</a></li>
                 </ul>
             </li>
         </ul>
+        </section>
+        
+        
     </div>
 
     <nav>
@@ -62,10 +82,10 @@
                     <i class="fas fa-search" onclick="myFunction()"></i>
                     <div id="myDropdown" class="dropdown-content">
                       <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
-                        <a href="pubgm.html">PUBG Mobile</a>
-                        <a href="clashofclans.html">Clash of Clans</a>
-                        <a href="codm.html">COD Mobile</a>
-                        <a href="freefire.html">Free Fire</a>
+                        <a href="pvm.html">PUBG Mobile</a>
+                        <a href="rts.html">Clash of Clans</a>
+                        <a href="fps.html">COD Mobile</a>
+                        <a href="moba.html">Free Fire</a>
                     </div>
                   </div>
             </li>
@@ -85,37 +105,37 @@
         <section>
             <div class="card">
                 <div class="card-image">
-                    <a href="pubgm.html">
-                        <img src="img/1.jpg" alt="Card Image">
+                    <a href="pvp.html">
+                        <img src="pvp.png" alt="Card Image">
                     </a>
                 </div>
 
                 <div class="card-description">
-                    <a href="pubgm.html">
-                        <h3>Pubg Mobile</h3>
+                    <a href="pvp.html">
+                        <h3>PvP (Player versus player)</h3>
                     </a>
                     <p>
-                        ..to be written
+                        PvP or player versus player is precisely as the name suggests. This means that one or more humans will play versus one or more opponents, humans as well .This type of esports has been very popular and it still is. They moved to other types that will be discussed below. Most games used in this type are sports or combat games.
                     </p>
-                    <a href="pubgm.html" class="btn-readmore">Read more</a>
+                    <a href="pvp.html" class="btn-readmore">Read more</a>
                 </div>
             </div>
 
             <div class="card">
                 <div class="card-image">
                     <a href="clashofclans.html">
-                        <img src="img/2.jpg" alt="Card Image">
+                        <img src="rts.png" alt="Card Image">
                     </a>
                 </div>
 
                 <div class="card-description">
                     <a href="clashofclans.html">
-                        <h3>Clash of Clans</h3>
+                        <h3>RTS (real time strategy)</h3>
                     </a>
                     <p>
-                        ..to be written
+                        Real-time strategy (RTS) is a variation of the PvP type. We still have two players playing the same game, but in this case, they will play a strategy. Some examples include Warcraft or StarCraft. Both players start with the same resources and play on the same map. The goal is to create the strongest empire and defeat the opponent.
                     </p>
-                    <a href="clashofclans.html" class="btn-readmore">Read more</a>
+                    <a href="rts.html" class="btn-readmore">Read more</a>
                 </div>
             </div>
         </section>
@@ -124,7 +144,7 @@
 
         <section id="section-source">
             <p>
-                .....wite something
+                .....write something
             </p>
             <a href="#" target="_blank" class="btn-readmore">Button</a>
         </section>
@@ -176,7 +196,7 @@
         </footer>
 
     </main>
-
+    
     <script src="main.js"></script>
 </body>
 
