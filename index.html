@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>eSports</title>
+</head>
+
+<body>
+    <div id="slideout-menu">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="esports.html">Esports in India</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <input type="text" id="myInput2" onkeyup="myFunc()" placeholder="Search an esports">
+                <ul id="myUL">
+                    <li><a href="pubgm.html">Coding</a></li>
+                    <li><a href="clashofclans.html">Guitar</a></li>
+                    <li><a href="codm.html">Cooking</a></li>
+                    <li><a href="freefire.html">Dancing</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <nav>
+        <div id="logo-img">
+            <a href="index.html">
+                <img src="img/logo.png" width="140" height="" alt="esports logo">
+            </a>
+        </div>
+        <div id="menu-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul>
+            <li>
+                <a class="active" href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="esports.html">Esports in India</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <div id="search-icon" class="dropdown">
+                    <i class="fas fa-search" onclick="myFunction()"></i>
+                    <div id="myDropdown" class="dropdown-content">
+                      <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                        <a href="pubgm.html">PUBG Mobile</a>
+                        <a href="clashofclans.html">Clash of Clans</a>
+                        <a href="codm.html">COD Mobile</a>
+                        <a href="freefire.html">Free Fire</a>
+                    </div>
+                  </div>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="banner">
+        <h1>Esports India</h1>
+        <h3>"Keep Calm and blame it on the Lag :)"</h3>
+    </div>
+
+    <main>
+        <a href="esports.html">
+            <h2 class="section-heading">Popular Esports In India</h2>
+        </a>
+
+        <section>
+            <div class="card">
+                <div class="card-image">
+                    <a href="pubgm.html">
+                        <img src="img/1.jpg" alt="Card Image">
+                    </a>
+                </div>
+
+                <div class="card-description">
+                    <a href="pubgm.html">
+                        <h3>Pubg Mobile</h3>
+                    </a>
+                    <p>
+                        ..to be written
+                    </p>
+                    <a href="pubgm.html" class="btn-readmore">Read more</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <a href="clashofclans.html">
+                        <img src="img/2.jpg" alt="Card Image">
+                    </a>
+                </div>
+
+                <div class="card-description">
+                    <a href="clashofclans.html">
+                        <h3>Clash of Clans</h3>
+                    </a>
+                    <p>
+                        ..to be written
+                    </p>
+                    <a href="clashofclans.html" class="btn-readmore">Read more</a>
+                </div>
+            </div>
+        </section>
+
+        <h2 class="section-heading">Choose one for you</h2>
+
+        <section id="section-source">
+            <p>
+                .....wite something
+            </p>
+            <a href="#" target="_blank" class="btn-readmore">Button</a>
+        </section>
+
+        <footer>
+            <div id="left-footer">
+                <h3>Quick Links</h3>
+                <p>
+                    <ul>
+                        <li>
+                            <a href="pubgm.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="esports.html">Esports</a>
+                        </li>
+                        <li>
+                            <a href = "mailto: rajput.1@iitj.ac.in">Contact Us</a>
+                        </li>
+                    </ul>
+                </p>
+            </div>
+
+            <div id="right-footer">
+                <h3>Follow us on</h3>
+                <div id="social-media-footer">
+                    <ul>
+                        <li>
+                            <a href="https://www.linkedin.com/in/mynk-rjpt/" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Ekta0609" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <p>Developed by </p>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
