@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>eSports</title>
+</head>
+
+<body>
+    <div id="slideout-menu">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="esports.html">Find a Hobby</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <input type="text" id="myInput2" onkeyup="myFunc()" placeholder="Search a Hobby">
+                <ul id="myUL">
+                    <li><a href="coding.html">Coding</a></li>
+                    <li><a href="cooking.html">Cooking</a></li>
+                    <li><a href="dancing.html">Dancing</a></li>
+                    <li><a href="guitar.html">Guitar</a></li>
+                    <li><a href="hiking.html">Hiking</a></li>
+                    <li><a href="photography.html">Photography</a></li>
+                    <li><a href="singing.html">Singing</a></li>
+                    <li><a href="travelling.html">Travelling</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <nav>
+        <div id="logo-img">
+            <a href="index.html">
+                <img src="img/logo.png" width="140" height="" alt="Glee Logo">
+            </a>
+        </div>
+        <div id="menu-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul>
+            <li>
+                <a class="active" href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="hobbies.html">Find a Hobby</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <div id="search-icon" class="dropdown">
+                    <i class="fas fa-search" onclick="myFunction()"></i>
+                    <div id="myDropdown" class="dropdown-content">
+                      <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                        <a href="coding.html">Coding</a>
+                        <a href="cooking.html">Cooking</a>
+                        <a href="dancing.html">Dancing</a>
+                        <a href="guitar.html">Guitar</a>
+                        <a href="hiking.html">Hiking</a>
+                        <a href="photography.html">Photography</a>
+                        <a href="singing.html">Singing</a>
+                        <a href="travelling.html">Travelling</a>
+                    </div>
+                  </div>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="banner">
+        <h1>Glee</h1>
+        <h3>Happiness through hobbies</h3>
+    </div>
+
+    <main>
+        <a href="hobbies.html">
+            <h2 class="section-heading">Some Hobbies</h2>
+        </a>
+
+        <section>
+            <div class="card">
+                <div class="card-image">
+                    <a href="dancing.html">
+                        <img src="img/1.jpg" alt="Card Image">
+                    </a>
+                </div>
+
+                <div class="card-description">
+                    <a href="dancing.html">
+                        <h3>Dancing</h3>
+                    </a>
+                    <p>
+                        Dancing is an enjoyable activity and whenever you feel bored in your daily routines 
+                        then you should spend some time in learning dance like Zumba, Ballet, Hip Hop or Belly dance.
+                    </p>
+                    <a href="dancing.html" class="btn-readmore">Read more</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <a href="singing.html">
+                        <img src="img/2.jpg" alt="Card Image">
+                    </a>
+                </div>
+
+                <div class="card-description">
+                    <a href="singing.html">
+                        <h3>Singing</h3>
+                    </a>
+                    <p>
+                        Singing – we all do it, don’t we? But take it up a notch and singing can be a fun and rewarding hobby. 
+                        In essence, singing is using the human voice as a musical instrument, and a very flexible instrument at that.
+                    </p>
+                    <a href="singing.html" class="btn-readmore">Read more</a>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="card">
+                <div class="card-image">
+                    <a href="photography.html">
+                        <img src="img/3.jpg" alt="Card Image">
+                    </a>
+                </div>
+
+                <div class="card-description">
+                    <a href="photography.html">
+                        <h3>Photography</h3>
+                    </a>
+                    <p>
+                        Pursuing photography as a hobby can be very fulfilling, inspiring, and relaxing. 
+                        No matter what kind of equipment or camera you have, you have the potential to become a great photographer. 
+                        Even a smartphone camera is enough!
+                    </p>
+                    <a href="photography.html" class="btn-readmore">Read more</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <a href="travelling.html">
+                        <img src="img/4.jpg" alt="Card Image">
+                    </a>
+                </div>
+
+                <div class="card-description">
+                    <a href="travelling.html">
+                        <h3>Travelling</h3>
+                    </a>
+                    <p>
+                        “Travel in the youngest sort,” says Bacon, “Is a part of education; in the elder, a part of experience.” 
+                        Travelling may be an expensive hobby but it compensates for the financial loss. 
+                    </p>
+                    <a href="travelling.html" class="btn-readmore">Read more</a>
+                </div>
+            </div>
+        </section>
+
+        <h2 class="section-heading">Choose The Right One For You</h2>
+
+        <section id="section-source">
+            <p>
+                From dancing to singing, programming or writing, action figures or antiques-- Hobbies are as unique and varied as the people who pursue them. The Glee website has hobbies that people are most fond of.
+
+Exploring a hobby can have an impact on your mental and physical well-being and can impact your overall life satisfaction. There has been a lot of research to confirm that engaging in a hobby has benefits that extend for hours, days and years beyond the actual time it takes to complete the activity.
+
+There are many benefits of having a hobby that you enjoy whether you use it to help with work or life stress or it opens you up to think creatively. Browse the list of hobbies in our Discover a Hobby directory and you might be inspired to return to an activity that you did as a kid, or learn something new to stretch your skills.
+            </p>
+            <a href="https://iitj.ac.in/" target="_blank" class="btn-readmore">IIT Jodhpur</a>
+        </section>
+
+        <footer>
+            <div id="left-footer">
+                <h3>Quick Links</h3>
+                <p>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="hobbies.html">Hobbies</a>
+                        </li>
+                        <li>
+                            <a href = "mailto: rajput.1@iitj.ac.in">Contact Us</a>
+                        </li>
+                    </ul>
+                </p>
+            </div>
+
+            <div id="right-footer">
+                <h3>Follow us on</h3>
+                <div id="social-media-footer">
+                    <ul>
+                        <li>
+                            <a href="https://www.linkedin.com/in/mynk-rjpt/" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Ekta0609" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <p>Developed by Mayank and Ekta</p>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
