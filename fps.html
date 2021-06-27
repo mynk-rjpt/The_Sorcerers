@@ -14,6 +14,67 @@
 
 <body>
   <div id="slideout-menu">
+        
+        <section>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="esports.html">Esports in India</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <input type="text" id="myInput2" onkeyup="myFunc()" placeholder="Search an esports">
+                <ul id="myUL">
+                    <li><a href="pvp.html">PVP</a></li>
+                    <li><a href="rts.html">RTS</a></li>
+                    <li><a href="fps.html">FPS</a></li>
+                    <li><a href="moba.html">MOBA</a></li>
+                </ul>
+            </li>
+        </ul>
+        </section>
+        
+        
+    </div>
+
+    <nav>
+        <div id="logo-img">
+            <a href="index.html">
+                <img src="img/logo.png" width="140" height="" alt="esports logo">
+            </a>
+        </div>
+        <div id="menu-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul>
+            <li>
+                <a class="active" href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="esports.html">Esports in India</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <div id="search-icon" class="dropdown">
+                    <i class="fas fa-search" onclick="myFunction()"></i>
+                    <div id="myDropdown" class="dropdown-content">
+                      <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                        <a href="pvp.html">PVP</a>
+                        <a href="rts.html">RTS</a>
+                        <a href="fps.html">FPS</a>
+                        <a href="moba.html">MOBO</a>
+                    </div>
+                  </div>
+            </li>
+        </ul>
+    </nav>
+  <div id="slideout-menu">
       <ul>
           <li>
               <a href="index.html">Home</a>
